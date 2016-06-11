@@ -1,0 +1,112 @@
+/* Empty. Add your own CSS if you like */
+.slider {
+  height: 100%;
+}
+.slider-slide {
+  padding-top: 80px;
+  color: #000;
+  background-color: #fff;
+  text-align: center;
+
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+}
+
+#logo {
+  margin: 30px 0px;
+}
+
+#list {
+  width: 170px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+#list ol {
+  margin-top: 30px;
+}
+#list ol li {
+  text-align: left;
+  list-style: decimal;
+  margin: 10px 0px;
+}
+
+.button.ng-hide{
+  display:none;
+}
+
+.intro-slide {
+  background-color: #002240;
+  color: #FFF;
+}
+.intro-slide h1, h2, h3, h4, h5 {
+  color: #DD2267;
+}
+
+.intro-view .slider-pager .slider-pager-page
+{
+  color: white;
+  opacity: 1;
+}
+
+.intro-view .slider-pager .slider-pager-page.active
+{
+  color: #656565;
+}
+
+.front-page-body {
+    background-color: #DD2267;
+}
+
+.front-page-body .scroll-content {
+  display: table !important;
+  width: 100% !important;
+  height: 100% !important;
+}
+.front-page-body .scroll {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.front-page-body .sub-button {
+    color:white;
+    font-size: 0.8em;
+    margin-top: -10px;
+}
+.front-page-body .button-sign-up {
+    color: #DD2267;
+    background-color: white;
+}
+.front-page-body .button-log-in {
+    color: white;
+    background-color: #DD2267;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+}
+.front-page-body .button-log-in-fb {
+    color: white;
+    background-color: #38569D;
+    
+}
+.front-page-body .block-padding {
+    width:100%;
+    height:30px;
+}
+.modal-sign-up {
+    width:90%;
+    left:5%;
+    background: rgba(0,0,0,0) !important;
+}
+.modal-sign-up .title {
+    text-align: right;
+}
+.modal-open .front-page-body{
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+}
+.bar-chick{
+  background-color: #DD2267;
+}

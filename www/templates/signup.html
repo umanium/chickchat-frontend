@@ -1,0 +1,24 @@
+<ion-modal-view class="modal-sign-up">
+    <ion-header-bar class="bar-clear">
+        <h1 class = "title">Sign Up</h1>
+    </ion-header-bar>
+    
+    <ion-content>
+        <div class="list list-inset">
+            <label class="item item-input">
+                <input type="text" placeholder="Username" ng-model="data.username">
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Password" ng-model="data.password">
+            </label>
+            <label class="item item-input">
+                <input type="password" placeholder="Re-type password" ng-model="data.password">
+            </label>
+            <label class="item item-input">
+                <input type="text" placeholder="phone" ng-model="data.password">
+            </label>
+        </div>
+        <button class = "button icon icon-left ion-ios-close-outline"
+        ng-click = "closeModal()">Close Modal</button>
+    </ion-content>
+</ion-modal-view>
